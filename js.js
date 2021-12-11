@@ -177,7 +177,7 @@ function psn_day() {
 psn_day();
 
 function Page_Main(){
-  window.location.href = "Main.html";
+  window.location.href = "./index.html";
 }
 
 function Page_Male() {
