@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Strong&display=swap" rel="stylesheet">
+    <title>사시사철</title>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+  </script>
+  <script src="https://kit.fontawesome.com/067a21272e.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,700;1,600&display=swap" rel="stylesheet">
+</head>
+    <body>
+
+        <div class="bg">
+        </div>
+
+        <h1>
+            <span> <br>
+                <div onclick="Weather_Image(0)" class="psn_time" style="text-align: center;">
+                    <span class="weatherform"> <img src="" width="75%" height="100%" alt="" srcset="" id="weather-icon">
+                </div>
+            </span>
+            <section><br>
+                
+                    <div id="location">-Weather Info-</div>
+                   <div style="font-weight: bold;"></div>
+                    <div class="c">[data-value]</div>
+                    <div>강수량: 
+                        <span class="cprobability">
+                            -Not_Found-
+                        </span>
+                    </div>
+                    <div>미세먼지: 
+                        <span class="pm10">
+                            -Not_Found-
+                        </span>
+                    </div>
+                </span>
+            </section>
+            <span> <br>
+                <span id="clock" >-clock-</span>
+                <span id="apm"  >-ampm-</span>
+                <div id="today">test</div>
+            </span>
+        </h1>
+        
+        <h2 onclick="Page_Main()">
+            <div ><img src="./image/logo1.png" width="50%" height="100%"></div>
+        </h2>
+
+        <form class = "search">
+            <select class = 'SelectSearch' name = 'WhichSearch'>
+                <option id = 'google' value = 'google'>Google</option>
+                <option id = 'naver' value = 'naver'>Naver</option>
+            </select>
+            <input class = 'keyword' type = 'text' name = 'search' maxlength = 255 value = "" autocomplete = "off">
+            <button class = "img-button" type = "submit" name = "click" value = "" >
+                <i class="fas fa-search"></i>
+            </button>      
+        </form>
+
+        <footer>
+            <span class="num_1" onclick="Page_Male()">
+                <span  class="e101_77">MALE</span>
+                <div  class="e101_72"><img src="./image/Male.png" width="100%" height="100%"></div>
+            </span>
+            <span class="num_2" onclick="Page_Female()">
+                <span  class="e101_78">FEMALE</span>
+                <div  class="e101_76"><img src="./image/Female.png" width="100%" height="100%"></div>
+            </span>
+            <span class="num_3" onclick="Page_Unisex()">
+                <span  class="e101_79">UNISEX</span>
+                <div  class="e101_75"><img src="./image/Unisex.png" width="100%" height="100%"></div>
+            </span>
+            <span class="num_4">
+                <span  class="e101_80">ITEM</span>
+                <div  class="e101_74">
+                    <a id="Item_link" href="https://search.shopping.naver.com/search/all?query=" target="_blank">
+                        <img id="Item" src="" width="100%" height="100%">
+                    </a>
+                </div>
+            </span>
+            <span class="num_5" onclick="Page_Food()">
+                <span  class="e101_81">FOOD</span>
+                <div  class="e101_73">
+                    <img src="./image/Food.png" width="100%" height="100%"></div>
+            </span>
+        </footer>
+        <script src="./js.js"></script>
+    </body>
+</html>
