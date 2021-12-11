@@ -1,0 +1,104 @@
+
+.cartegoryCircle { 
+	border-radius:500px;
+	background-color:rgba(255, 255, 255, 1);
+	width:230px;
+	height:230px;
+	position:absolute;
+	left:-16px;
+	top:-16px;
+}
+.cartegoryCircle { 
+	border:20px solid rgba(87.00000241398811, 0, 112.000000923872, 1);
+}
+.cartegoryName { 
+	transform: rotate(-37.496096398821514deg);
+	color:rgba(0, 0, 0, 1);
+	width:86px;
+	height:48px;
+	position:absolute;
+	left:45px;
+	top:80px;
+	font-family:Strong;
+	text-align:left;
+	font-size:40px;
+	letter-spacing:0;
+}
+
+.dessertCircle2{
+	border-radius:500px;
+	border:20px solid rgba(87.00000241398811, 0, 112.000000923872, 1);
+	width:350px;
+	height:350px;
+	position:absolute;
+	left:10%;
+	top:47%;
+}
+
+.dessertCircle1:hover .overlay {
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	background: #fff;
+  }
+.dessertCircle2:hover .overlay {
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	background: #fff;
+  }
+  
+.mainfoodCircle { 
+	border-radius:500px;
+	width:558px;
+	height:558px;
+	position:absolute;
+	left:36%;
+	top:20%;
+}
+.mainfoodCircle { 
+	border:30px solid rgba(232.00000137090683, 215.0000023841858, 241.00000083446503, 1);
+}
+.overlay {
+	display: none;
+	position: absolute;
+	border-radius: 50%;
+	font-size: 500%;
+	
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0);
+	transition: 0.5s ease;
+  }
+  .mainfoodCircle:hover .overlay {
+	display: block;
+	border-radius: 50%;
+	text-align: center;
+	background: #fff;
+  }
+
+.mainfoodImage{
+	display: block;
+	margin: 0px auto ;
+	margin-top: 60px;
+	width: 400px;
+}
+.dessert2{
+	display: block;
+	margin: 0px auto ;
+	margin-top: 30px;
+	margin-right: 20px;
+	width: 250px;
+}
+
+.logoContainer { 
+	width:32%;
+	height:65%;
+	position:absolute;
+	left:75%;
+	top:30%;
+}
+
+
