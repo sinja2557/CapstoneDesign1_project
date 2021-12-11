@@ -193,7 +193,7 @@ function Page_Unisex() {
 }
 
 function Page_Food() {
-  window.location.href = "Food.html";
+  window.location.href = "./Food.html";
 }
 
 var num = 1;

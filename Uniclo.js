@@ -114,7 +114,7 @@ window.addEventListener('load',()=>{
             else if (23<=lastTemp<28){
                 HatCloth.textContent = '버킷햇';
                 Top1Cloth.textContent='린넨 셔츠';
-                Top2Cloth.textContent='얇은 반팔';
+                mTop2Cloth.textContent='얇은 반팔';
                 BottomCloth.textContent='린넨 바지';
                 Shose.textContent='쪼리';
             }
@@ -132,7 +132,7 @@ window.addEventListener('load',()=>{
                 Top1Cloth.textContent='롱패딩';
                 Top2Cloth.textContent='니트';
                 BottomCloth.textContent='청바지';
-                Shose.textContent='운동화';
+                mShose.textContent='운동화';
             }
             else if (5<=lastTemp<9){
                 HatCloth.textContent = '모자';
@@ -225,7 +225,7 @@ window.addEventListener('load',()=>{
                 Top1Cloth.textContent='가디건';
                 Top2Cloth.textContent='반팔티';
                 BottomCloth.textContent='면바지';
-                Shose.textContent='운동화';
+                mShose.textContent='운동화';
             }
             else if (23<=lastTemp<28){
                 HatCloth.textContent = '버킷햇';
